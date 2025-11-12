@@ -1,0 +1,9 @@
+mode: Mainline
+branches:
+  master:
+    increment: Patch
+    is-mainline: true
+ignore:
+  sha: []
+merge-message-formats: {}
+commit-message-incrementing: Enabled

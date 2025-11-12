@@ -1,0 +1,88 @@
+name: Build Untitled Cat Game
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    paths:
+      - "Projects/UntitledCatGame/**"
+      - ".github/workflows/build-untitled-cat-game.yml"
+
+jobs:
+  build:
+    runs-on: [unity-linux-runner] # This can be replaced with "ubuntu-latest" to use GitHub provided runners
+
+    permissions:
+      contents: write
+      id-token: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # We need the tags and branches for gitversion to properly determine the version
+          fetch-depth: 0
+          lfs: true
+
+      - uses: actions/cache@v4
+        with:
+          path: Projects/UntitledCatGame/Library
+          key: Library-UntitledCatGame
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Install GitVersion
+        uses: gittools/actions/gitversion/setup@v0
+        with:
+          versionSpec: '5.x'
+
+      - id: gitversion
+        name: Determine Version
+        uses: gittools/actions/gitversion/execute@v0
+        with:
+          useConfigFile: true
+
+      - name: Build Android
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+        with:
+          targetPlatform: Android
+          projectPath: Projects/UntitledCatGame
+          dockerCpuLimit: 4
+          allowDirtyBuild: true
+          unityVersion: auto
+
+      - name: Build iOS
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+        with:
+          targetPlatform: iOS
+          projectPath: Projects/UntitledCatGame
+          dockerCpuLimit: 4
+          allowDirtyBuild: true
+          unityVersion: auto
+
+      - name: Collect release artifacts
+        run: |
+          mkdir publish
+          cp build/Android/Android.apk publish
+          cd build/iOS
+          tar -zcvf '${{ github.workspace }}/publish/ios-xbuild.tgz' *
+
+      # Create a release with the artifacts (this will also create the tag)
+      - uses: ncipollo/release-action@v1
+        if: github.event_name != 'pull_request'
+        with:
+          tag: ${{ steps.gitversion.outputs.SemVer }}
+          artifacts: "publish/*"
+          generateReleaseNotes: true
+          makeLatest: "latest"
+          commit: ${{ github.sha }}
