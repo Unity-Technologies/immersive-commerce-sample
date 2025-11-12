@@ -1,0 +1,419 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3b91747b30ae04040a4d39585663a921
+  m_SerializeEntries:
+  - m_GUID: dc5fb58cc35684ed78f46b7533514e6d
+    m_Address: WalmartLightTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a252dba89598d4f9288a1c4e35e0d4b2
+    m_Address: WalmartDarkTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c2a92152f44bd4d6b9910e4f22b6e22f
+    m_Address: RuntimeEnvDetails
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - runtimeEnv
+  - m_GUID: 7bec4c347f7dd4432870a42c717f9611
+    m_Address: CommerceOpportunityEditorEnv
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - runtimeEnv
+  - m_GUID: 615159dd7994f453181184e1f540acd8
+    m_Address: walmart-spark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a976b79f4f704cbc94a79a5d8386817
+    m_Address: walmart-logo-white
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90471b867160147efb5699e8961fa06a
+    m_Address: walmart-logo-blue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2bd3383a9703c42e5b009c79e1465864
+    m_Address: SourceSans3-Regular SDF
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f7a16d19c58e448e948baaf1a8edc4d
+    m_Address: Poppins-Regular SDF
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22c1521f9eef9ba429c3ae1d429b3bdd
+    m_Address: EverydaySans-Regular SDF
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a553814b82e1c4ee9930159290a58341
+    m_Address: Bogle-Regular SDF
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97efd6061d60c45c49efd1fe3c60443a
+    m_Address: UndoToast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b0a821b7a6b798449c4f4fc94698c23
+    m_Address: QuickDismissToast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c787a1c2b299415c8f82f9ce0bd3ed0
+    m_Address: OrderPlacedToast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9af1c8b4f20224fc590c2597e585fca6
+    m_Address: ShoppingCartScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b762eeb6a75b24ac08754ee61694e3a0
+    m_Address: ReviewOrderScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 204f9ab5f5dd1234a8b678c6e5cef2bb
+    m_Address: RequestDataScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 806678a62610e1449970cd72df3abb4d
+    m_Address: ReportPageScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d21e1e4979a79a344aaf74a35077ef1b
+    m_Address: RedirectConfirmationScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c55d7c93e29cba34ebd9c9f80513bd58
+    m_Address: ProductDetailScreenPortrait
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eec4275f7cb8a4c36ad8174f4f2c312d
+    m_Address: ProductDetailScreenLandscape
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 33e6db60d9bd646a88fe054905f584ba
+    m_Address: ProductAddedToCartScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 416fa31f1eff4c888ebd10bd73c5d68c
+    m_Address: ProductAddedToCartClosedToast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6f659d99526a8534eaf16ef098e7ffa6
+    m_Address: OrderFee
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 636b402fa97d04bb2af979d4fcf6fd58
+    m_Address: SellerDetailsScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a98c0e0231dbe4dd5bfe2b2c72daa67d
+    m_Address: SellerDetails
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f14b4459418cf4c3bb1ab4884ddea897
+    m_Address: MerchantHeader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b1f2fa251f08e417993506fe095d3c99
+    m_Address: MerchantAlert
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6b43af446c7114a1081a1f136b530ffb
+    m_Address: BackButtonFooter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8bce3b81ab3c6247ae88401343b7933
+    m_Address: LoadingPage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45500974fa6634f4db79a33e63de3654
+    m_Address: LegalDisclaimerScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 420738179d9452147852067d9e98c822
+    m_Address: EditPaymentScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5ed4a1a105fb2304fb8aed28f4749d32
+    m_Address: EditAddressScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a8890a84127ed964c91debe76daf529d
+    m_Address: DeleteDataScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a767485d17426e4c8f1557a3b4f7fb7
+    m_Address: DataPrivacyScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9719a2153ea73418eb9d16c595618ef1
+    m_Address: VariantDropdown
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d6421d2befd24cb0b987434fb37e8aa
+    m_Address: ProductWarning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5ed7434956ca6ba468c72e4a8f55baa0
+    m_Address: LoadingOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be40174627b304a6e9ce2fcd8cbad010
+    m_Address: AccountDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a08407d7cef944fd98c99fffe3a1a32c
+    m_Address: ShoppingCartToastTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 48f8076d96fbf4a07bf13b38e0097869
+    m_Address: ShoppingCartPageTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f01e024ca8b54286b992430b9ab04d83
+    m_Address: ShoppingCartEntryErrorTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 25aa61c2a402e4889a4dcf772a179e18
+    m_Address: SellerDetailsTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eca9f972be274cbe8d2eef7de45e94b3
+    m_Address: ReviewPageTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d69b814c65474d25aa8c7e3fad0aea5
+    m_Address: RedirectPageTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 57c50c9fc9e340e0a3f57a8023cf0dfd
+    m_Address: ProductAddedToShoppingCartPageTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97d8d4300837479594f72c91a76420d6
+    m_Address: MobileOverrideTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 46ce435c8f154e979e4720082c939fa1
+    m_Address: FontSizeTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0769f6a52a4b24929a98dc374b784439
+    m_Address: EditPageTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0bc8f7c7b6e840a4894268a67f80d45d
+    m_Address: DeliveryDateTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3d7e33216f62044c94cc6c58a88588f
+    m_Address: CommerceOpportunitySharedTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 32f18298d18c65e4983bb2cd6e26760e
+    m_Address: CommerceOpportunitySdkDefaultRuntimeTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3040721607134fff8096867fb2a251d
+    m_Address: ButtonStyleTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c340795b5da29453681f6c6515e278ee
+    m_Address: BaseScreenTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6efb7c161789441a7b154fc471a78193
+    m_Address: AccountDialogTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 09cd96a8d599647a5a8f018416cacaff
+    m_Address: Warning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae7cb0ea9f168a3459e55e64f8a64e35
+    m_Address: VisaLogo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74a1a7bb1c55414468ea4fa3eb56ef8b
+    m_Address: Union
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 96a7d0fef16294d6a9d1c55b5ba16221
+    m_Address: StarHalf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ffc6c664b8f4941b296e63a1d145d0a7
+    m_Address: StarFull
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3e681d0ba83a4a97935623616e7c6f2
+    m_Address: StarEmpty
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 16899709f737f43f99a835c6ade03dc6
+    m_Address: Remove
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb3e71f6cb3624e31a0762d36b867c35
+    m_Address: ProductWarning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b80a678427a304048aec0deac0a8befe
+    m_Address: Preview BG
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f05fd7a10f9444469d4873497a8dc7e
+    m_Address: PopupBubble
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 11d9100c590fe4a7e8a6764885d05209
+    m_Address: PlaceholderProductImage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e4e664c38db4e4c47beeb7969a899357
+    m_Address: Loading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2313ae857be5d44cca80747edb14aff5
+    m_Address: Info
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6f7e166bd666cf142990712266205ad4
+    m_Address: imgVisa
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 94a71dd972147314c83275d6f670fedd
+    m_Address: imgMC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 25cb29aab31a7e848bf28c8f4fc3c196
+    m_Address: imgDiscover
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7edb361cc6315bb449487217de2c8963
+    m_Address: imgAmex
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7bed0a88780acc64dba8927e8f753001
+    m_Address: HandCheckmark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b0c05a2d599497f479319fcb168ba626
+    m_Address: flag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0a270786b4d0443488c4ee0013604dc0
+    m_Address: ExternalLink
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f02047e4dd9eb44df9f68853d5512015
+    m_Address: Error
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9d4cc8a0e2e874724a92e2fa93528fdb
+    m_Address: Documentation
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 21d2f3c7ad74f8240a0092b2a17135cb
+    m_Address: DataPrivacyIcon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9bd105c8a237044dfa028eae06f983d4
+    m_Address: Copy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c72836dd2f3c4157ae10a3cd23ae77a
+    m_Address: Close-OnPress
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f157f86a109f40bb95eb905df439ac9
+    m_Address: Close
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 00a3a95bf33894229b19285baa83595a
+    m_Address: CheckCircle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fcd3d77a7bbad44afa1e02785cc41373
+    m_Address: Cart
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f86ab2a416b34f54966b64b5d4b92e8
+    m_Address: Arrow-Up
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7257c59bf6f44fa479641c9942fdad3f
+    m_Address: Arrow-Right-Pressed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6aea06fedefab574a8a8bcc5d6580dd9
+    m_Address: Arrow-Right-Hover
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae19c1a508ab53f44abb612c6aa54280
+    m_Address: Arrow-Right-Disabled
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f97fd6c76e9451418fe4d19c29dad7b
+    m_Address: Arrow-Right-Default
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e9453bd213209794a96862c4888eba6a
+    m_Address: Arrow-Left-Pressed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79f37e00c9615fa40a9828ff09f2f8eb
+    m_Address: Arrow-Left-Hover
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 171bbba3a0c234249b4ca97d01e24021
+    m_Address: Arrow-Left-Disabled
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c9816c522a84484484be85e960ad04d
+    m_Address: Arrow-Left-Default
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74a21da1e419f4e08afcf3ec72067384
+    m_Address: Arrow-Down
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c48e55a4616b54273a30de6afc63afee
+    m_Address: Add-To-Cart
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0ae08bfe86e844c35a2b911eed786883
+    m_Address: Add
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6cdd2d742eb7e8744805319518d000e1
+    m_Address: Account
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77346865386af964882b516f176eb109
+    m_Address: CommerceOpportunitySdkWebGLPanelSettings
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 19fbdb090acb05a40a8e15290b29cbe2
+    m_Address: CommerceOpportunitySdkPanelSettings
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: efe2fcb8266fff547b67599abe1ab991, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: eda69a7406aa3f94a80864c66b8d6ecc, type: 2}
+    - {fileID: 11400000, guid: 7e1f4ddd395fda8428eb587c53451ec4, type: 2}

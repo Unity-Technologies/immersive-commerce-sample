@@ -1,17 +1,16 @@
-# For more information about the available options please visit: http://go/catalog-info (VPN required)
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
     github.com/project-slug: Unity-Technologies/immersive-commerce-sample
   name: immersive-commerce-sample
-  description: "A sample game showcasing the Immersive Commerce SDK"
+  description: "Sample game showcasing Immersive Commerce"
   labels:
-    costcenter: "7052"
+    costcenter: "1087"
   tags:
     - planned-public
     - enterprise
 spec:
   type: other
-  lifecycle: production
-  owner: Unity-Technologies/ind-proj-orca-admins
+  lifecycle: experimental
+  owner: unity-technologies/ind-proj-orca-admins

@@ -1,4 +1,12 @@
 # immersive-commerce-sample
-[View this project in Unity Internal Developer Portal](https://developer.portal.internal.unity.com/catalog/default/component/immersive-commerce-sample) <br/>
-# Converting to public repository
-Any and all Unity software of any description (including components) (1) whose source is to be made available other than under a Unity source code license or (2) in respect of which a public announcement is to be made concerning its inner workings, may be licensed and released only upon the prior approval of Legal.
+
+# Set up steps
+1) Link to Dashboard Organization in Unity --> Edit > Project Settings > Services
+2) Set the Organization Id in the Commerce Opportunity Datastore asset
+3) Open the Commerce Opportunity Editor Window
+4) Sync with the Dashboard
+5) Choose a Product Package for the Test Comop (Cat ComOp 01)
+6) Set the Base Url in the ARSConfiguration asset
+7) Start the game
+8) Click on the Brush, Play or Feed buttons
+9) Click on the Go Now! button on the popup and your ComOp should appear
