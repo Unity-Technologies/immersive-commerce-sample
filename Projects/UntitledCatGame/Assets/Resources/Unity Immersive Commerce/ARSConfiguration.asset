@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: ARSConfiguration
   m_EditorClassIdentifier: 
   _baseUrl: 
-  _projectId: 
   _relayServiceData:
-    ApiEndpoint: 
     Headers:
     - HeaderKey: Content-Type
       HeaderValue: application/json

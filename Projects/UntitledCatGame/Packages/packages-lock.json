@@ -317,7 +317,7 @@
       }
     },
     "com.unity.unity-commerce-sdk": {
-      "version": "file:../../SDK Packages/com.unity.unity-commerce-sdk-0.1.2813.tgz",
+      "version": "file:../../SDK Packages/com.unity.unity-commerce-sdk-0.1.2840.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -336,7 +336,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.walmart-commerce-sdk": {
-      "version": "file:../../SDK Packages/com.unity.walmart-commerce-sdk-0.1.2813.tgz",
+      "version": "file:../../SDK Packages/com.unity.walmart-commerce-sdk-0.1.2840.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
