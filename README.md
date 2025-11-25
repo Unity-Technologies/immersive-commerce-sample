@@ -8,7 +8,10 @@
 5) Click on the Sync with the Dashboard button in the right panel of the window
 6) Choose a Product Package for the Test Comop (Cat ComOp 01)
 7) Set the Base Url in the ARSConfiguration asset
-8) Open the "Game Scene" under Assets/Scenes folder in the Hierarchy
-9) Start the game
-10) Click on the Brush, Play or Feed buttons
-11) Click on the Go Now! button on the popup and your ComOp should appear
+8) Open the Addressables Groups Menu in Unity -> Window -> Asset Management -> Addressables -> Groups
+9) Remove the CommerceOpportunity Group and Walmart Group
+10) Build the Addressables Content in the Addressables Window by selecting Build -> New Build -> Default Build Script
+11) Open the "Game Scene" under Assets/Scenes folder in the Hierarchy
+12) Start the game
+13) Click on the Brush, Play or Feed buttons
+14) Click on the Go Now! button on the popup and your ComOp should appear
