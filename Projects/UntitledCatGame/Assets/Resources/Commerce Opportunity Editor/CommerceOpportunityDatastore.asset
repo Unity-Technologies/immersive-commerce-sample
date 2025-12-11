@@ -33,6 +33,6 @@ MonoBehaviour:
     _isThemeLight: 1
   _packageData:
     _name: com.unity.unity-commerce-sdk
-    _version: 0.1.2853
+    _version: 0.1.2854
   _runtimeEnvironment: {fileID: 11400000, guid: c2a92152f44bd4d6b9910e4f22b6e22f, type: 2}
   _editorEnvironment: {fileID: 11400000, guid: 7bec4c347f7dd4432870a42c717f9611, type: 2}
