@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
 using UnityEngine;
+using Walmart.Commerce.Sdk;
 
 public class AccountManager : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class AccountManager : MonoBehaviour
     }
 
     public string UserId => AuthenticationService.Instance.PlayerId;
+    
+    private bool _isAuthServiceInitialized = false;
+    private string _cachedAccessToken;
 
     public async Task InitializeAsync()
     {
@@ -25,6 +29,8 @@ public class AccountManager : MonoBehaviour
             AuthenticationService.Instance.SignInFailed += OnUserSignInFailed;
             AuthenticationService.Instance.SignedOut += OnUserSignedOut;
             AuthenticationService.Instance.Expired += OnLoginSessionExpired;
+            
+            _isAuthServiceInitialized = true;
         }
         catch (Exception e)
         {
@@ -34,10 +40,23 @@ public class AccountManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        AuthenticationService.Instance.SignedIn -= OnUserSignedIn;
-        AuthenticationService.Instance.SignInFailed -= OnUserSignInFailed;
-        AuthenticationService.Instance.SignedOut -= OnUserSignedOut;
-        AuthenticationService.Instance.Expired -= OnLoginSessionExpired;
+        if (_isAuthServiceInitialized)
+        {
+            AuthenticationService.Instance.SignedIn -= OnUserSignedIn;
+            AuthenticationService.Instance.SignInFailed -= OnUserSignInFailed;
+            AuthenticationService.Instance.SignedOut -= OnUserSignedOut;
+            AuthenticationService.Instance.Expired -= OnLoginSessionExpired;
+        }
+    }
+    
+    private void Update()
+    {
+        if (_isAuthServiceInitialized && string.CompareOrdinal(_cachedAccessToken,AuthenticationService.Instance.AccessToken) != 0)
+        {
+            WalmartSdk.Instance.SetAuthorizationHeader("Bearer", AuthenticationService.Instance.AccessToken);
+            _cachedAccessToken = AuthenticationService.Instance.AccessToken;
+            
+        }
     }
 
     public async Task<LoginResult> SignInAnonymously()
@@ -45,6 +64,7 @@ public class AccountManager : MonoBehaviour
         try
         {
             await AuthenticationService.Instance.SignInAnonymouslyAsync();
+            _cachedAccessToken = AuthenticationService.Instance.AccessToken;
             return new LoginResult()
             {
                 Success = true,

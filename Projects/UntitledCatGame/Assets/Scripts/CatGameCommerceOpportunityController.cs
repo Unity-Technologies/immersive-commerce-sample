@@ -32,7 +32,7 @@ public class CatGameCommerceOpportunityController : MonoBehaviour
                 }
                 else
                 {
-                    Debug.LogError("Error logging into Cat Game Anonymously</color>");
+                    Debug.LogError("Error logging into Cat Game Anonymously");
                 }
             }
         }
