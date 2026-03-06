@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
 using UnityEngine;
-using Walmart.Commerce.Sdk;
+//using Walmart.Commerce.Sdk;
 
 public class AccountManager : MonoBehaviour
 {
@@ -53,7 +53,7 @@ public class AccountManager : MonoBehaviour
     {
         if (_isAuthServiceInitialized && string.CompareOrdinal(_cachedAccessToken,AuthenticationService.Instance.AccessToken) != 0)
         {
-            WalmartSdk.Instance.SetAuthorizationHeader("Bearer", AuthenticationService.Instance.AccessToken);
+            //WalmartSdk.Instance.SetAuthorizationHeader("Bearer", AuthenticationService.Instance.AccessToken);
             _cachedAccessToken = AuthenticationService.Instance.AccessToken;
             
         }
