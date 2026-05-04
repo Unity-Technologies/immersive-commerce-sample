@@ -2,11 +2,9 @@ using UnityEngine;
 using System;
 using System.Threading.Tasks;
 using Unity.Services.Authentication;
-//using Walmart.Commerce.Sdk;
-
-//Shouldn't these be removed? 
-//using Unity.Commerce.Backend;
-//using Unity.Commerce.CommerceOpportunity;
+using Walmart.Commerce.Sdk;
+using Unity.Commerce.Backend;
+using Unity.Commerce.CommerceOpportunity;
 
 public class CatGameCommerceOpportunityController : MonoBehaviour
 {
@@ -16,7 +14,6 @@ public class CatGameCommerceOpportunityController : MonoBehaviour
     
     private async void Awake()
     {
-        /*
         if (!WalmartSdk.Instance.IsInitialized)
         {
             Debug.Log("WalmartSdk Initializing ...");
@@ -40,7 +37,6 @@ public class CatGameCommerceOpportunityController : MonoBehaviour
                 }
             }            
         }
-        */
     }
     
     /// <summary>
@@ -53,7 +49,6 @@ public class CatGameCommerceOpportunityController : MonoBehaviour
 
     private async Task ShowCommerceOpportunity(string commerceOpportunityName)
     {
-        /*
         // Check if Commerce Opportunity with given name exists
         if (!WalmartSdk.Instance.TryGetCommerceOpportunity(commerceOpportunityName, out CommerceOpportunityInstance commerceOpportunity))
         {
@@ -78,6 +73,5 @@ public class CatGameCommerceOpportunityController : MonoBehaviour
         {
             Debug.LogError($"Failed to show Commerce Opportunity: {commerceOpportunityName}");
         }
-        */
     }
 }
