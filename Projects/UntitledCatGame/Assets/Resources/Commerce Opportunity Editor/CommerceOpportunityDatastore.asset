@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26211727c73741209e853edebd7b9625, type: 3}
+  m_Name: CommerceOpportunityDatastore
+  m_EditorClassIdentifier: 
+  _organizationId: 3574065102332
+  _commerceOpportunities:
+  - _id: 31b13672-1746-4b39-927d-44dcc8c8ee7f
+    _styleTemplateId: f4afa3a5-1116-4c76-a226-a857db3315dc
+    _productPackageId: 
+    _displayName: Cat ComOp 01
+  _styleTemplates:
+  - _displayName: Style
+    _id: f4afa3a5-1116-4c76-a226-a857db3315dc
+    _orientation: 1
+    _deviceId: iPhone SE
+    _width: 0
+    _height: 0
+    _font: {fileID: 11400000, guid: 22c1521f9eef9ba429c3ae1d429b3bdd, type: 2}
+    _accentColor: {r: 0, g: 0.3254902, b: 0.8862745, a: 1}
+    _overlayBackgroundColor: {r: 0, g: 0, b: 0, a: 0.49803922}
+    _isDefault: 1
+    _isThemeLight: 1
+  _packageData:
+    _name: com.unity.commerce-sdk
+    _version: 1.2.1
+  _runtimeEnvironment: {fileID: 11400000, guid: c2a92152f44bd4d6b9910e4f22b6e22f, type: 2}
+  _editorEnvironment: {fileID: 11400000, guid: 7bec4c347f7dd4432870a42c717f9611, type: 2}
