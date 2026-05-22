@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1487f5d688e4f94f828f879d599dbdc, type: 3}
-  m_Name: Built In Data_PlayerDataGroupSchema
+  m_Name: Default Local Group_PlayerDataGroupSchema
   m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: 4a7d7f9c918868d4d9d1560a019335d0, type: 2}
+  m_Group: {fileID: 11400000, guid: 7f637d9289a6acf4bb35308159dadf08, type: 2}
   m_IncludeResourcesFolders: 1
   m_IncludeBuildSettingsScenes: 1

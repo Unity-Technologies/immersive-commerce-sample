@@ -13,26 +13,25 @@ MonoBehaviour:
   m_Name: CommerceOpportunityDatastore
   m_EditorClassIdentifier: 
   _organizationId: 
-  _environmentId: 
   _commerceOpportunities:
-  - _id: 99e85dce-817f-432d-8d49-15831f84a82a
-    _styleTemplateId: 42ca99e9-e6ea-4974-9436-910fdd698449
+  - _id: 31b13672-1746-4b39-927d-44dcc8c8ee7f
+    _styleTemplateId: f4afa3a5-1116-4c76-a226-a857db3315dc
     _productPackageId: 
     _displayName: Cat ComOp 01
   _styleTemplates:
   - _displayName: Style
-    _id: 42ca99e9-e6ea-4974-9436-910fdd698449
+    _id: f4afa3a5-1116-4c76-a226-a857db3315dc
     _orientation: 1
     _deviceId: iPhone SE
-    _width: 90
-    _height: 90
-    _font: {fileID: 0}
-    _accentColor: {r: 0, g: 0, b: 0, a: 0}
-    _overlayBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
-    _isDefault: 0
+    _width: 0
+    _height: 0
+    _font: {fileID: 11400000, guid: 22c1521f9eef9ba429c3ae1d429b3bdd, type: 2}
+    _accentColor: {r: 0, g: 0.3254902, b: 0.8862745, a: 1}
+    _overlayBackgroundColor: {r: 0, g: 0, b: 0, a: 0.49803922}
+    _isDefault: 1
     _isThemeLight: 1
   _packageData:
     _name: com.unity.commerce-sdk
-    _version: 1.0.1
+    _version: 1.2.1
   _runtimeEnvironment: {fileID: 11400000, guid: c2a92152f44bd4d6b9910e4f22b6e22f, type: 2}
   _editorEnvironment: {fileID: 11400000, guid: 7bec4c347f7dd4432870a42c717f9611, type: 2}

@@ -15,7 +15,10 @@ MonoBehaviour:
   _uiSetup:
     _defaultSortOrder: 1000
   _config:
-    organizationId: 0
+    organizationConfiguration:
+      id: 0
+      status: 
+    isProjectRegistered: 0
     projectId: 
     isFallbackEnabled: 0
     fallbackOptions: []
